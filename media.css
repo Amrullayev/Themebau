@@ -1,0 +1,108 @@
+@media only screen and (max-width:950px){
+    .header{
+        z-index: -2;
+    }
+    .header nav{
+        width: 0px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 22px;
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        font-weight: 900;
+    }
+    .header nav li p{
+        color: bisque;
+    }
+    .gg{
+        margin-right: 30px;
+    }
+    .auth-buttons{
+        margin-left: 50px;
+    }
+    .header-content{
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        z-index: -1;
+    }
+    .header-content h1{
+        z-index: 222;
+        font-size: 70px;
+        color: rgb(15, 21, 63);;
+    }
+    .gate{
+        position: absolute;
+        left: 0px;
+        top: 700px;
+        z-index: 0;
+    }
+    .services{
+        margin-top: 800px;
+        width: 1000px;
+    }
+    .gggggg{
+        position: absolute;
+        left: 300px;
+        top: -170px;
+    }
+    .destination-card{
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+    .conta{
+        position: absolute;
+        left: 0;
+        top: 3400px;
+    }
+    .testimonials{
+        margin-top: 1500px;
+        margin-left: -200px;
+    }
+    .container #box{
+        position: absolute;
+        top: 4500px;
+        left: -700px;
+    }
+    .container #box2{
+        position: absolute;
+        top: 4900px;
+        left: -700px;
+    }
+}
+@media only screen and (max-width:650px){
+    .top-destinations{
+        margin-left: 100px;
+    }
+    .destinations-cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .destination-card{
+        transform: scale(2);
+        margin-left: 325px;
+        margin-top: 550px;
+    }
+    .gggggg{
+        position: absolute;
+        left: 300px;
+        top: 0px;
+    }
+    .container #box{
+        position: absolute;
+        top: 7400px;
+        left: -700px;
+    }
+    .container #box2{
+        position: absolute;
+        top: 7800px;
+        left: -700px;
+    }
+    .conta{
+        position: absolute;
+        left: 0;
+        top: 6200px;
+    }
+}
